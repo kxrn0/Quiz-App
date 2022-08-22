@@ -1,0 +1,32 @@
+.categories-selector {
+    border-radius: .25rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .drop-down {
+    position: relative;
+  }
+  
+  .drop-down-content {
+    background: azure;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    /* [... */
+    width: 5rem;
+    /* ...] */
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25rem);
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+  }
+  
+  .drop-down.active .drop-down-content {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }

@@ -1,0 +1,35 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-purple: #293264;
+}
+
+@font-face {
+    font-family: inter;
+    src: url("./assets/fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: inter-medium;
+    src: url("./assets/fonts/Inter-Medium.ttf");
+}
+
+@font-face {
+    font-family: inter-semi-bold;
+    src: url("./assets/fonts/Inter-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: inter-bold;
+    src: url("./assets/fonts/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: karla;
+    src: url("./assets/fonts/Karla-Bold.ttf");
+}
+

@@ -1,0 +1,18 @@
+.start-screen {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.start-screen .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 
+}
+
+.start-screen .hero-title {
+    color: var(--dark-purple);
+    font-family: karla;
+    font-size: 4rem;
+    /* line-height: 36px; */
+}
