@@ -43,7 +43,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 480px) {    
+@media screen and (max-width: 600px) {    
     .start-screen .content-wrapper {
         gap: .5rem;
     }
